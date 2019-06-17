@@ -1,0 +1,43 @@
+{
+  "name": "drica-hom-epage",
+  "private": true,
+  "description": "Driyca Project Home Page",
+  "version": "0.1.0",
+  "author": "André Claudino <claudino@driyca.com>",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.9.4",
+    "gatsby-image": "^2.1.4",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-offline": "^2.1.3",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.1.5",
+    "gatsby-source-filesystem": "^2.0.39",
+    "gatsby-transformer-sharp": "^2.1.21",
+    "holder": "0.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andreclaudino/driyca-hp3.git"
+  }
+}
